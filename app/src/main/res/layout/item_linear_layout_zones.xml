@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.vecika.parking.views.TextViewTitle
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Zona narivakasdklj "
+        android:id="@+id/zoneName"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center">
+
+
+    <CheckBox
+        android:layout_gravity="center"
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.vecika.parking.views.TextViewSubtitle
+        android:layout_gravity="center"
+        android:id="@+id/textViewDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_weight="10"
+        android:text="Cijena sata: 4,00 kn \n + naknada za SMS poruku"/>
+
+
+    <ImageView
+        android:id="@+id/imageViewInfoZona"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/ic_info_outline_black_18dp"/>
+
+</LinearLayout>
+
+</LinearLayout>

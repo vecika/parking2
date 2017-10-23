@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:background="@color/hwite"
+                                    app:cardElevation="5dp"
+                                    android:layout_margin="5dp"
+                                    app:cardCornerRadius="20dp"
+                                    app:contentPaddingLeft="100dp"
+                                    app:contentPaddingBottom="20dp"
+                                    app:contentPaddingTop="20dp"
+                                    app:contentPaddingRight="100dp"
+                                    android:orientation="vertical"
+                                    android:id="@+id/linearLayoutParentItem"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+    >
+
+    <com.vecika.parking.views.TextViewTitle
+        android:id="@+id/textViewPlatesItem"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aOSSLČFASČFLK"/>
+
+</android.support.v7.widget.CardView>

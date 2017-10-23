@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="?attr/actionBarSize"
+                                       android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+
+
+            <com.vecika.parking.views.TextViewTitle
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Postavke"
+                android:textColor="@color/hwite"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.vecika.parking.views.TextViewTitle
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odaberite grad"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:minWidth="150dp"
+            android:layout_height="wrap_content"/>
+
+
+        <com.vecika.parking.views.TextViewTitle
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registarske oznake:"/>
+
+        <com.vecika.parking.views.EditTextCustom
+            android:id="@+id/editTextLicencePlate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:digits="QWERTZUIOPASDFGHJKLYXCVBNM0123456789"
+            android:inputType="textCapCharacters"
+            android:maxLength="12"
+            android:minWidth="150dp"/>
+
+
+        <com.vecika.parking.views.TextViewTitle
+            android:id="@+id/textViewGPSTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Koristiti GPS lokaciju:"/>
+
+
+        <Switch
+            android:id="@+id/switchGpsLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"/>
+
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Spremi"/>
+
+
+    </LinearLayout>
+</LinearLayout>

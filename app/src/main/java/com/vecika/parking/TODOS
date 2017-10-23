@@ -1,0 +1,21 @@
+todo: 08.07.2017.
+
+- Rijesiti runtime permissione za SMS na plati i Location na switchu u settings activitiju
+
+- Smislit kako napravit za multiple tablice UX (neam ideje) tamo na settings screenu treba
+    negdi ubacit dodaj novu + jos negdje smislit di bi bilo dobro stavit da se brise ta ista
+    tablica ( mozda u mainActivitiju di se odabire tablica na onLongClick ili nesto?)
+
+- Na onom dialogu za izbor tablice napravit callback za update stvarcica u sharedprefs i setat
+    tu tablicu kao selectani item na MainActivitiju
+
+- Splash screen pobogu
+
+- App icon
+
+- Nacrtat poligone na google mapsu
+
+- Implementirat kako nac kojem je poligonu najbliza trenutna lokacija
+
+- Ako je upaljen switch tamo dodati button na mainActivitiju button plati bez zona
+

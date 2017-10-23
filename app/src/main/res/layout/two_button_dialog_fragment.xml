@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_gravity="center"
+                                    android:maxHeight="350dp"
+                                    android:maxWidth="600dp"
+                                    app:cardElevation="5dp"
+                                    app:cardCornerRadius="10dp"
+                                    android:minHeight="250dp"
+                                    android:minWidth="500dp"
+                                    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.vecika.parking.views.TextViewTitle
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="Platiti parking za vozilo:"
+            android:textSize="20sp"/>
+
+        <com.vecika.parking.views.TextViewTitle
+            android:padding="5dp"
+            android:id="@+id/textViewRegistracija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:textSize="22sp"/>
+
+        <com.vecika.parking.views.TextViewTitle
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="za zonu:"
+            android:textSize="20sp"/>
+
+        <com.vecika.parking.views.TextViewTitle
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/textViewZona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:textSize="22sp"/>
+
+        <com.vecika.parking.views.TextViewTitle
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="po cijeni od:"
+            android:textSize="22sp"/>
+
+        <com.vecika.parking.views.TextViewTitle
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/textViewCijena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:paddingStart="20dp"
+            android:textSize="20sp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonDialogCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Odustani"
+                android:textColor="@color/hwite"
+                android:visibility="visible"/>
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="0dp"/>
+
+            <Button
+                android:background="@color/colorPrimary"
+                android:id="@+id/buttonDialogOk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="PLATI"
+                android:textColor="@color/hwite"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
